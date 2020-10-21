@@ -53,9 +53,19 @@ h2 {
 
 }
 
+h3 {
+    display: inline;
+    font-size: 20px !important;
+    color: #ffffff;
+    font-family: 'Permanent Marker', sans-serif;
+    text-align: center;
+
+}
+
 h4 {
     color: #607D8B;
     font-family: 'Istok Web', sans-serif;
+    line-height: 1.5 !important;
 
 }
 
@@ -148,18 +158,9 @@ footer ul li p {
 .footer-sm {
 
     float: right;
-    display: inline-block;
+    
 }
 
-.fa-facebook-square {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-instagram-square {
-    background: rgb(78,114,241);
-    color: white;
-}
 
 header .header-banner {
 
@@ -172,7 +173,20 @@ header .header-banner {
     background-size: cover;
     display: table;
     
-    }
+}
+
+header .header-banner2 {
+
+    background-image: url("./img/majutus2.jpg");
+    width: 100%;
+    height: calc(100vh - 400px);
+    min-height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    
+}
 
 header .header-text {
 
@@ -198,6 +212,21 @@ header .header-text {
     
 }
 
+.btn-info{
+
+    border-radius: 0px !important;
+    background-color: #A2B7B7 !important;
+    border-color: #A2B7B7 !important;
+
+}
+
+.btn-info:hover {
+
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    
+}
+
 .nopadding-right {
     padding-right: 0px !important;
 }
@@ -207,11 +236,20 @@ header .header-text {
     padding-left: 0px !important;
 }
 
+.nopaddings-all {
+    padding: 0px !important;
+}
+
 #map {
     position: relative;
     width: 100%;
     height: 300px;
     margin: auto;
+}
+
+.row-flex {
+    display: flex !important;
+    width: 100% !important;
 }
 
 @media only screen and (max-width: 600px) {
